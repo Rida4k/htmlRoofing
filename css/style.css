@@ -1,0 +1,149 @@
+html {
+
+    background-image: url(../IMG/main/london2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+
+
+.ueberschrift {
+
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 10vw;
+    text-align: center;
+    font-family: 'Roboto:700', sans-serif;
+
+
+}
+
+.pos {
+    margin-top: 150px;
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    width: 785px;
+    margin: 0px auto;
+
+}
+
+.navbar1 {
+    display: inline-block;
+
+
+
+}
+
+li a {
+
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-family: 'Roboto:400', sans-serif;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #ccc;
+}
+
+.content {
+    height: auto;
+    background-color: #fff;
+    margin-top: 1050px;
+
+}
+
+.text1 {
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Roboto:700', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+h2 {
+    color: #000;
+    font-size: 48px;
+    text-align: left;
+    font-family: 'Roboto:700', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.center1 {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-family: 'Roboto:700', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.faketable{
+   display: inline;
+    
+    
+   
+}
+
+.cube {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+    
+    
+    
+.back1{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Roboto:700', sans-serif;
+    text-decoration: none;
+    
+    
+   
+    
+}
+  
+.back2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+    
+
+
+
