@@ -1,0 +1,179 @@
+html {
+
+    background-image: url(../img/london2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+.ueberschrift {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #fff;
+    font-size: 10vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+ul.a {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    text-align: right;
+   
+}
+
+li.a {
+    display:inline-block;
+     }
+
+li a {
+    display:block;
+    min-width:140px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    background: #fff;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+   
+}
+
+li:hover a {
+    background: #ccc;
+}
+
+
+ 
+
+.show_menu {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    text-align: center;
+    padding: 15px 0;
+    display: none;
+    font-weight: 600;
+}
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+@media screen and (max-width : 950px){
+   
+    ul {
+        position: static;
+        display: none;
+    }
+  
+    
+  
+    ul li, li a {
+        width: 100%;
+    }
+ 
+    .show_menu {
+        display:block;
+    }
+}
+
+    
+
+.content {
+    height: auto;
+    background-color: #fff;
+    margin-top: 1050px;
+}
+
+.text1 {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    color: #000;
+    font-weight: 100;
+}
+
+h2 {
+    color: #222;
+    font-size: 48px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.center1 {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+
+.respon1 {
+     max-width: 100%;
+     height: auto;
+}
+
+.table2 {
+    align-content: center;
+    margin: 0 auto;
+}
+
+.table1 {
+    align-content: center;
+    margin: 0 auto;
+}
+    
+.back1{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+   
+}
+  
+.back2 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+
+
+    
+
+
+
